@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="has-background-black">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Audio Visualizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="media/images/note-icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar has-shadow is-light">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="about.html">
+                <img src="media/images/note-icon.png" alt="site logo" style="max-height:70px" class="py-2 px-2">
+            </a>
+            <a class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+
+        <div class="navbar-menu" id="nav-links">
+            <div class="navbar-start">
+                <a class="navbar-item" href="about.html"><b>About</b></a>
+                <a class="navbar-item " href="index.html">App</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- product info -->
+    <div class="column">
+        <div class="hero is-large is-light p-5 box">
+            <div class="hero-head columns">
+                <div class="column is-5">
+                    <h1 class="is-size-1 title has-text-danger">My Audio Visualizer!</h1>
+                    <h1 class="is-size-4 title has-text-danger">Song List</h1>
+                    <ul class="is-size-5 subtitle">
+                        <li>-Nocturne (remix)</li>
+                        <li>-Hall of the Mountain King (halloween remix)</li>
+                        <li>-Toccata and Fugue (orchestral)</li>
+                    </ul>
+
+                    <br>
+
+                    <h1 class="is-size-4 title has-text-danger">Instructions</h1>
+                    <p class="is-size-5 subtitle">
+                        Use the different buttons, sliders, and checkboxes to change up the
+                        music. There are three different tracks to choose from. Both the sound and visuals can be
+                        adjusted, so have fun playing around with them. Careful when useing the color inversion
+                        checkbox, it makes the screen very flashy and hard to look at.</p>
+                </div>
+
+                <div class="column is-7 is-flex is-justify-content-center is-align-items-center">
+                    <img src="media/images/visualizer-image.png" alt="visualizer image" class="is-6">
+                </div>
+            </div>
+            <div class="hero-footer">Contact: jmh4687@g.rit.edu</div>
+        </div>
+    </div>
+
+
+    <script src="./dist/bundle.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>NY State Park Buddy!</title>
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=yes">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		crossorigin="anonymous" referrerpolicy="no-referrer">
+	<script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
+	<link href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/default-styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+	<script src="./src/main.js" type="module"></script>
+</head>
+
+<body>
+	<header class="hero is-small is-info is-bold p-2">
+		<div class="hero-body">
+			<div class="container">
+				<h1 class="title">NY State Park Buddy!</h1>
+				<h2 class="subtitle">Your one-stop resource for NYS parks!</h2>
+			</div>
+		</div>
+	</header>
+	<div class="columns m-1">
+		<div class="column is-two-thirds">
+			<div id="map"></div>
+		</div>
+		<div class="column">
+			<!-- Right Column -->
+			<div class="panel">
+				<h2 class="panel-heading">Map Controls</h2>
+				<a id="btn1" class="panel-block">
+					<span class="panel-icon">
+						<i class="fas fa-map-location"></i>
+					</span>
+					NYS @ Zoom 5.2
+				</a>
+				<a id="btn2" class="panel-block">
+					<span class="panel-icon">
+						<i class="fas fa-cube"></i>
+					</span>
+					NYS @ Isometric View
+				</a>
+				<a id="btn3" class="panel-block">
+					<span class="panel-icon">
+						<i class="fas fa-earth-america"></i>
+					</span>
+					USA @ Zoom 3
+				</a>
+			</div><!-- End -->
+			<div class="panel"> <!-- Begin panel 2 -->
+				<h2 class="panel-heading">Favorites</h2>
+				<div id="favorites-list">
+					<a class="panel-block" id="p1">
+						<span class="panel-icon">
+							<i class="fas fa-map-pin"></i>
+						</span>
+						Letchworth State Park
+					</a>
+					<a class="panel-block">
+						<span class="panel-icon">
+							<i class="fas fa-map-pin"></i>
+						</span>
+						StoneybrookState Park
+					</a>
+				</div>
+			</div> <!-- End -->
+		</div>
+	</div>
+	<div class="has-background-info p-1">
+		<div class="has-background-info p-1">
+			<h2 id="details-1" class="panel-heading m-1">Info</h2>
+			<div class="columns m-1">
+				<div class="column is-one-third has-background-info-light mr-1">
+					<div id="details-2">???</div>
+					<br>
+					<div id="buttons" style="display: none;">
+						<button id="btn-fav" class="button is-success">
+							Favorites
+							<span class="material-symbols-outlined">Check</span>
+						</button>
+						<button id="btn-delete" class="button is-warning">
+							Delete
+							<span class="material-symbols-outlined">close</span>
+						</button>
+					</div>
+				</div>
+				<div class="column has-background-info-light">
+					<h2 class="subtitle is-size-6 has-text-weight-bold mb-1">Park Details</h2>
+					<div id="details-3">???</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer has-background-info has-text-centered has-text-light p-1">&copy; 2024 Jackson Heim</div>
+</body>
+
+
+</html>

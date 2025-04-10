@@ -1,0 +1,31 @@
+Jackson Heim's audio visualizer notes:
+
+AUDIO AFFECTS
+The audio affect nodes I used were the highself filter, lowshelf filter, and distrotion.
+The highshelf and lowshelf filters can be turned on and off with the treble and bass checkboxes respectively.
+The distortion node can be turned on and off with the distortion checkbox and the level of distrotion can be changed with the slider.
+
+
+SPRITES
+Used the phylloclassy sprite as a basis for making the fireworks that grow and fade with the music.
+Made a sprite for triangles that rotate with the music.
+
+APP DATA
+Used a json file to load in the app page title and the information at the top of the box. 
+The information inclued the title, the list of songs available, and instructions for how to use the app.
+
+
+AESTHETICS
+Improved the way the audio visualizer looked completely by getting rid of some older features and adding new ones.
+Decided to use a color pallette with mostly pinks, purples, and blues to make it look cohesive and edited the visuals to more look interesting.
+I also messed with the css of the page to make the layout of the buttons and checkboxes look better.
+I would give myself a 14% becuase although I made the visualizer look much better, the css could still use some work.
+
+FAIR USE
+Used a music note icon as a favicom from https://icons8.com
+Got the copywrite music for free from https://www.chosic.com and https://pixabay.com/music
+Audio visualizer image from https://sciencecast.org/casts/vhm9iputkegn
+
+CODING LANGUAGE
+Turned all my js files into typescript
+I added an interfaces and two enums for audio and main to replace of the fake enums and also strongly typed all variables and function parameters

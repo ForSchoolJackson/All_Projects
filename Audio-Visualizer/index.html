@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" class="has-background-black">
+
+<head>
+  <meta charset="utf-8">
+  <title>Audio Visualizer</title>
+  <link href="./styles/default-styles.css" type="text/css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="media/images/note-icon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+  <main>
+
+    <!-- navbar -->
+    <nav class="navbar has-shadow is-white">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="about.html">
+          <img src="media/images/note-icon.png" alt="site logo" style="max-height:70px" class="py-2 px-2">
+        </a>
+        <a class="navbar-burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+
+      <div class="navbar-menu" id="nav-links">
+        <div class="navbar-start">
+          <a class="navbar-item" href="about.html">About</a>
+          <a class="navbar-item " href="index.html"><b>App</b></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- canvas -->
+    <div class="container p-5 is-centered">
+
+      <div class="column box">
+        <canvas width="800" height="550"></canvas>
+      </div>
+
+      <div class="is-1"></div>
+
+      <!-- controls -->
+      <div id="controls" class="is-light px-5 box ">
+
+        <div>
+          <button id="btn-play" data-playing="no" class="button is-danger has-text-weight-bold"></button>
+          <button id="btn-fs" class="button is-danger has-text-weight-bold">Full Screen</button>
+
+          <label class="title is-size-5 has-text-weight-bold">Track:</label>
+          <div class=" select is-rounded is-small">
+            <select id="select-track">
+              <option value="media/music/Nocturne.mp3" selected>Nocturne</option>
+              <option value="media/music/Halloween Mountain King.mp3">Hall of the Mountain King</option>
+              <option value="media/music/Toccata and Fugue.mp3">Toccatta and Fugue</option>
+            </select>
+          </div>
+
+
+          <label class="title is-size-5 has-text-weight-bold">Volume:</label>
+          <input type="range" id="slider-volume" min="0" max="2" value="1" step="0.01">
+          <span id="label-volume">???</span>
+
+
+          <div class=" select is-rounded is-small">
+            <select id="select-visualizer">
+              <option value="frequency" selected>Frequency Data</option>
+              <option value="wave">Waveform</option>
+
+            </select>
+          </div>
+
+
+        </div>
+
+        <br>
+
+        <div id="checkboxes">
+          <div>
+            <span><input type="checkbox" id="cb-bars"><label for="cb-bars"><b>Bars</b></label></span>
+            <span class="is-1">|</span>
+            <span><input type="checkbox" id="cb-fireworks"><label for="cb-fireworks"><b>Fireworks</b></label></span>
+            <span class="is-1">|</span>
+            <span><input type="checkbox" id="cb-triangles"><label for="cb-triangles"><b>Triangles</b></label></span>
+            <span class="is-1">|</span>
+            <span><input type="checkbox" id="cb-lines"><label for="cb-lines"><b>Lines</b></label></span>
+            <span class="is-1">|</span>
+            <span><input type="checkbox" id="cb-circles"><label for="cb-circles"><b>Circles</b></label></span>
+            <span class="is-1">|</span>
+            <span><input type="checkbox" id="cb-invert"><label for="cb-invert"><b>Invert Colors</b></label></span>
+            <span class="is-1">|</span>
+
+            <span><input type="checkbox" id="cb-highshelf"><label for="cb-highshelf"><b>Treble</b></label></span>
+            <span class="is-1">|</span>
+            <span><input type="checkbox" id="cb-lowshelf"><label for="cb-lowshelf"><b>Bass</b></label></span>
+            <span class="is-1">|</span>
+            <span><input type="checkbox" id="cb-distortion"><label for="cb-distortion"><b>Distortion</b></label></span>
+            <span><input type="range" min="0" max="100" value="0" id="slider-distortion"></span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <script src="./dist/bundle.js"></script>
+</body>
+
+</html>

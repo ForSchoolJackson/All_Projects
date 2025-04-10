@@ -1,0 +1,87 @@
+{
+	"parks": [{
+			"latitude": "42.685",
+			"longitude": "-77.95944",
+			"name": "Letchworth State Park",
+			"url": "http://nysparks.com/parks/79/details.aspx",
+			"parkDescription": "This park is renowned as the \"Grand Canyon of the East\"."
+		},
+		{
+			"latitude": "43.36139",
+			"longitude": "-77.95861",
+			"name": "Hamlin Beach State Park",
+			"url": "http://nysparks.com/parks/20/details.aspx",
+			"parkDescription": "This park has clear water, sandy beaches and 264 tent and trailer campsites that bring thousands of visitors to the park each year."
+		},
+		{
+			"latitude": "42.533184",
+			"longitude": "-76.616402",
+			"name": "Taughannock Falls State Park",
+			"url": "http://nysparks.com/parks/62/details.aspx",
+			"parkDescription": "This park's namesake waterfall is one of the outstanding natural attractions of the Northeast. Taughannock Falls plunges 215 feet past rocky cliffs that tower nearly 400 feet above the gorge"
+		},
+		{
+			"latitude": "42.51667",
+			"longitude": "-77.69278",
+			"name": "Stony Brook State Park",
+			"url": "http://nysparks.com/parks/118/details.aspx",
+			"parkDescription": "This park's terrain comprises hilly woodlands, a deep gorge with rugged cliffs overlooking three waterfalls and fascinating rock formations."
+		},
+		{
+			"latitude": "42.694424",
+			"longitude": "-77.525795",
+			"name": "Harriet Hollister Spencer State Recreation Area",
+			"url": "http://nysparks.com/parks/164/details.aspx",
+			"parkDescription": "Picnic tables, hiking, cross-country skiing and biking trails are provided."
+		},
+		{
+			"latitude": "42.4177",
+			"longitude": "-76.5234",
+			"name": "Buttermilk Falls State Park",
+			"url": "http://nysparks.com/parks/151/details.aspx",
+			"parkDescription": "This park takes its name from the foaming cascade formed by Buttermilk Creek as it flows down the steep valley side toward Cayuga Lake."
+		},
+		{
+			"latitude": "42.402649",
+			"longitude": "-76.548080",
+			"name": "Robert H. Treman State Park",
+			"url": "http://nysparks.com/parks/135/details.aspx",
+			"parkDescription": "This Park is an area of wild beauty, with the rugged gorge called Enfield Glen as its scenic highlight. Winding trails follow the gorge past 12 waterfalls, including the 115-foot Lucifer Falls, to where visitors can see a mile-and-a-half down the wooded gorge as it winds its way to the lower park."
+		},
+		{
+			"latitude": "42.729141",
+			"longitude": "-76.891724",
+			"name": "Sampson State Park",
+			"url": "http://nysparks.com/parks/154/details.aspx",
+			"parkDescription": "Encompassing just over 2000 acres on the eastern shore of Seneca Lake, this park features camping and boating as the primary recreational activities."
+		},
+		{
+			"latitude": "42.375896",
+			"longitude": "-76.871078",
+			"name": "Watkins Glen State Park",
+			"url": "http://nysparks.com/parks/142/details.aspx",
+			"parkDescription": "This park is the most famous of the Finger Lakes State Parks, with a reputation for leaving visitors spellbound. Within two miles, the glen's stream descends 400 feet past 200-foot cliffs, generating 19 waterfalls along its course."
+		},
+		{
+			"latitude": "43.329971",
+			"longitude": "-76.697014",
+			"name": "Fair Haven Beach State Park",
+			"url": "http://nysparks.com/parks/12/details.aspx",
+			"parkDescription": "This park is located in upstate New York on the eastern portion of the Lake Ontario shoreline. It has one of the finest public lakefronts in upstate New York, with towering shoreline bluffs, sandy beaches and adjoining hilly woodlands."
+		},
+		{
+			"latitude": "42.700130",
+			"longitude": "-76.420166",
+			"name": "Fillmore Glen State Park",
+			"url": "http://nysparks.com/parks/157/details.aspx",
+			"parkDescription": "This park is an oasis of cool, dense woods crowding into a long, narrow gorge. Its hiking trails offer spectacular views, unique geological formations, including five waterfalls, and a botanically rich glen."
+		},
+		{
+			"latitude": "43.280018",
+			"longitude": "-76.922516",
+			"name": "Chimney Bluffs State Park",
+			"url": "http://nysparks.com/parks/43/details.aspx",
+			"parkDescription": "Land and water clash at Chimney Bluffs, sculpting the most dramatic landscape on the Lake Ontario shore. You can experience massive earthen spires from above or along the lakeshore on nature trails."
+		}
+	]
+}

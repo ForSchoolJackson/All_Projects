@@ -1,0 +1,203 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"id": "p79",
+			"properties": {
+				"title": "Letchworth State Park",
+				"description": "Letchworth State Park, renowned as the \"Grand Canyon of the East,\" is one of the most scenically magnificent areas in the eastern U.S. The Genesee River roars through the gorge over three major waterfalls between cliffs--as high as 600 feet in some places--surrounded by lush forests. Hikers can choose among 66 miles of hiking trails. Trails are also available for horseback riding, biking, snowmobiling, and cross-country skiing. Letchworth offers nature, history and performing arts programs, guided walks, tours, a summer lecture series, whitewater rafting, kayaking, a pool for swimming and hot air ballooning.",
+				"url": "https://parks.ny.gov/parks/letchworth",
+				"address": "1 Letchworth State Park, Castile, NY 14427",
+				"phone": "(585) 493-3600"
+			},
+			"geometry": {
+				"coordinates": [
+					-78.051170,
+					42.570148
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "p20",
+			"properties": {
+				"title": "Hamlin Beach State Park",
+				"description": "Hamlin Beach State Park's clear water, sandy beaches and 264 tent and trailer campsites bring thousands of visitors to the park each year. The Yanty Creek Marsh area at the east end of the park has a mile long self-guided trail. In addition, there are 6 miles of hiking and biking trails, as well as snowmobile and cross-country skiing. Visitors can launch car-top boats, fish for salmon and trout and enjoy the picnic facilities.",
+				"url": "https://parks.ny.gov/parks/hamlinbeach",
+				"address": "1 Hamlin Beach Blvd, West Hamlin, NY 14464",
+				"phone": "(585) 964-2462"
+			},
+			"geometry": {
+				"coordinates": [
+					-77.946754,
+					43.355236
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "p180",
+			"properties": {
+				"title": "Brookhaven State Park",
+				"description": "<p>Once property of Brookhaven National Laboratory and former military installation called Camp Upton, Brookhaven State Park is 1,638-acres and is part of the central core of the Long Island Pine Barrens. The Park runs along the east side William Floyd Parkway north of Whiskey Road, and between NY 25 and NY 25A. For the avid hiker, the park features The Brookhaven Trail, which heads south through the park and hooks up with the white-blazed Paumanok Path.</p><p>In addition to various oak-pine habitats this park also contains scattered wetlands. Some of Brookhaven's foliage includes flowering dogwood, wild geranium, Christmas fern and pitch pine. Coastal plain ponds also lie within the park boundaries.</p>",
+				"url": "https://parks.ny.gov/parks/brookhaven",
+				"address": "2500 William Floyd Parkway, Ridge, NY 11961",
+				"phone": "(631) 929-4314"
+			},
+			"geometry": {
+				"coordinates": [
+					-72.878899,
+					40.913059
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "p35",
+			"properties": {
+				"title": "Allan H. Treman State Marine Park",
+				"description": "<p>Allan H. Treman is one of the largest inland marinas in New York State.  It boasts 370 seasonal, 30 transient and 30 dry boat slips.  For folks trailering boats, the park has an 8-lane boat launch ramp.  The marina is an excellent port-of-call off the Barge Canal system at the south end of Cayuga Lake and within easy walking distance to the city of Ithaca along the Cayuga Waterfront Trail.  For bird watching fans, the Hog Hole wetland and the Cayuga Lake shoreline make for great opportunities to view waterfowl and wetland species.</p><p>This is a marina only park.  We're often confused with Robert H. Treman State Park, which is located 4 miles to the south, not on Cayuga Lake.</p>",
+				"url": "https://parks.ny.gov/parks/AllanTreman",
+				"address": "805 Taughannock Blvd. (Rt 89), Ithaca, NY 14850",
+				"phone": "(607) 272-1460"
+			},
+			"geometry": {
+				"coordinates": [
+					-76.512681,
+					42.458818
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "p118",
+			"properties": {
+				"title": "Stony Brook State Park",
+				"description": "<p>Stony Brook State Park features a rugged gorge in the rolling hills of Western New York. You can enjoy the park's rich scenery while camping, picnicking, swimming or hiking.</p><p>The North Entrance for day use visitors features a picnic area with tables, grills, restrooms, playground, natural stream-fed pool, and entrance to the hiking trails. The park offers a variety of play fields that include: Playgrounds, Tennis Court, Baseball Field, Volleyball Court, and Basketball.</p><p>Hikers can choose among 3 hiking trails which are all about 1 mile long with quite a bit of stairs making them moderately difficult. The park's beautiful gorge trail begins at our stream-fed pool in the North Entrance and passes by 3 major waterfalls. We recommend the Gorge Trail as the easiest and most scenic. The Rim Trails climb the towering cliffs through the woodlands that overlook waterfalls and fascinating rock formations. Due to the nature of our trails they are not accessible to wheelchairs, medical walkers, or strollers.</p>",
+				"url": "https://parks.ny.gov/parks/stonybrook",
+				"address": "10820 Route 36 South Dansville, NY 14437",
+				"phone": "(585) 335-8111"
+			},
+			"geometry": {
+				"coordinates": [
+					-77.696533,
+					42.526417
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "p142",
+			"properties": {
+				"title": "Watkins Glen State Park",
+				"description": "Watkins Glen State Park is the most famous of the Finger Lakes State Parks, with a reputation for leaving visitors spellbound. Within two miles, the glen's stream descends 400 feet past 200-foot cliffs, generating 19 waterfalls along its course. The gorge path winds over and under waterfalls and through the spray of Cavern Cascade. Rim trails overlook the gorge. Campers and day-visitors can enjoy the Olympic-size pool, scheduled summer tours through the gorge, tent and trailer campsites, picnic facilities and excellent fishing in nearby Seneca Lake or Catherine Creek, which is renowned for its annual spring run of rainbow trout.",
+				"url": "https://parks.ny.gov/parks/watkinsglen",
+				"address": "1009 N Franklin Street, Watkins Glen, NY 14891",
+				"phone": " (607) 535-4511"
+			},
+			"geometry": {
+				"coordinates": [
+					-76.871078,
+					42.375896
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "p62",
+			"properties": {
+				"title": "Taughannock Falls State Park",
+				"description": "Taughannock Falls State Park's namesake waterfall is one of the outstanding natural attractions of the Northeast. Taughannock Falls plunges 215 feet past rocky cliffs that tower nearly 400 feet above the gorge. Gorge and rim trails offer spectacular views from above the falls and from below at the end of the gorge trail. Campsites and cabins overlook Cayuga Lake, with marina, boat launch and beach nearby. A multi-use trail--hiking, cross-country skiing--winds past sledding slopes and natural skating ponds.",
+				"url": "https://parks.ny.gov/parks/taughannockfalls",
+				"address": "1740 Taughannock Blvd. Trumansburg, NY 14886",
+				"phone": "(607) 387-6739"
+			},
+			"geometry": {
+				"coordinates": [
+					-76.616402,
+					42.533184
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "p84",
+			"properties": {
+				"title": "Selkirk Shores State Park",
+				"description": "<p>In addition to spectacular sunsets over one of the Great Lakes, visitors to Selkirk Shores State Park can expect outstanding fishing and popular hiking and biking trails that lead to a lush mix of meadows and woodlands.</p><p>Take full advantage of the views! Bring your binoculars - the park is directly in the migration route for a wide variety of bird species. Or, pitch a tent and stay awhile. Campsites are available directly overlooking a bluff on Lake Ontario.</p><p>Small boats can be launched from the Pine Grove site into the Salmon River, while larger boats can be launched from the Mexico Point Boat Launch on the Little Salmon River.</p>",
+				"url": "https://parks.ny.gov/parks/selkirkshores",
+				"address": "7101 State Route #3, Pulaski, NY 13142",
+				"phone": "(315) 298-5737"
+			},
+			"geometry": {
+				"coordinates": [
+					-76.191216,
+					43.545937
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "p43",
+			"properties": {
+				"title": "Chimney Bluffs State Park",
+				"description": "Land and water clash at Chimney Bluffs, sculpting the most dramatic landscape on the Lake Ontario shore. You can experience massive earthen spires from above or along the lakeshore on nature trails. Day-use services include picnic areas, nature trails and restrooms.",
+				"url": "https://parks.ny.gov/parks/chimneybluffs/",
+				"address": "7700 Garner Road, Wolcott, NY 14590",
+				"phone": "(315) 947-5205"
+			},
+			"geometry": {
+				"coordinates": [
+					-76.922516,
+					43.280018
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "p200",
+			"properties": {
+				"title": "Shirley Chisholm State Park",
+				"description": "<p>Shirley Chisholm State Park is named in honor of Shirley Chisholm, a Brooklyn-born trailblazer who was the first African American Congresswoman, as well as the first woman and African American to run for President.</p><p>Rising up 130 feet above sea level, this new park occupies some of the highest ground in New York City and offers spectacular panoramic views of the Empire State Building to the northwest, the Verrazano-Narrows Bridge and New York Harbor to the west, and Jamaica Bay to the south.The site, which has never been open to the public before, rests atop the former Pennsylvania and Fountain Avenue landfills. The Penn and Fountain landfills were operated by New York City Department of Sanitation from 1956 to 1983.</p>",
+				"url": "https://parks.ny.gov/parks/shirleychisholm",
+				"address": "950 Fountain Avenue, Brooklyn, NY 11239",
+				"phone": "(718) 277-2420"
+			},
+			"geometry": {
+				"coordinates": [
+					-73.875378500,
+					40.643033170
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "p112",
+			"properties": {
+				"title": "Saratoga Spa State Park",
+				"description": "<p>Saratoga Spa State Park is a National Historic Landmark distinguished by its classical architecture and noted for its diverse cultural, aesthetic and recreational resources. In addition to the nationally-known Saratoga Performing Arts Center, the Spa Little Theater, the National Museum of Dance, the Saratoga Automobile Museum, the Gideon Putnam Resort and Roosevelt Baths and Spa, the park offers a multitude of traditional recreation opportunities.</p><p>The Peerless Pool Complex consists of a main pool with a zero-depth entry, separate slide pool with a 19' double slide and a children's wading pool with a mushroom fountain. The slide pool has a minimum height requirement of 48\" tall. The Historic Victoria Pool is a smaller pool surrounded by arched promenades. Both pool areas include food and beverage services, showers, locker rooms and restrooms.</p>",
+				"url": "https://parks.ny.gov/parks/saratogaspa",
+				"address": "19 Roosevelt Drive, Saratoga Springs, NY 12866",
+				"phone": "(518) 584-2535"
+			},
+			"geometry": {
+				"coordinates": [
+					-73.807358,
+					43.057819
+				],
+				"type": "Point"
+			}
+		}
+	]
+}
