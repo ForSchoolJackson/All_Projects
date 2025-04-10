@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script src="js/main.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/questionMark.png">
+
+</head>
+
+<body>
+
+    <main>
+        <div id="start">
+            <h1>Trivia!</h1>
+            <button type="button" id="startButton" class="green">Play</button>
+        </div>
+
+        <div id="box" class="hidden">
+
+            <div id="setup">
+                <div id="number">
+                    Number of Questions:
+                    <input id="questionNumber" type="text" size="20" maxlength="2" autofocus value="10" />
+                    <p id="warning"></p>
+                </div>
+                <div id="topic">
+                    Topic:
+                    <select id="topics">
+                        <option value="20">Mythology</option>
+                        <option value="27">Animals</option>
+                        <option value="22">Geography</option>
+                        <option value="15">Video Games</option>
+                        <option value="11">Film</option>
+                        <option value="12">Music</option>
+                        <option value="9" selected>General Knowledge</option>
+                        <option value="24">Politics</option>
+                        <option value="19">Math</option>
+                        <option value="23">History</option>
+                        <option value="21">Sports</option>
+                        <option value="10">Books</option>
+                        <option value="17">Science</option>
+                        <option value="25">Art</option>
+                    </select>
+                </div>
+                <div id="difficulty">
+                    Difficulty:
+                    <select id="modes">
+                        <option value="easy">Easy</option>
+                        <option value="medium" selected>Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+
+                <button type="button" id="goButton">Begin</button>
+
+            </div>
+
+            <div id="questions" class="hidden">
+                <h2>Questions Loading...</h2>
+
+                <div id="answers">
+                    <button>question A</button>
+                    <button>question B</button>
+                    <button>question C</button>
+                    <button>question D</button>
+
+                </div>
+
+            </div>
+
+            <div id="result" class="hidden">
+                <h1>RESULT</h1>
+                <button type="button" id="nextButton" class="green">Next</button>
+
+            </div>
+
+            <div id="final" class="hidden">
+                <h1>SCORE</h1>
+                <button type="button" id="againButton">Play Again?</button>
+
+            </div>
+
+
+
+
+        </div>
+
+        <img id="star1" src="images/star.png" alt="star">
+        <img id="star2" src="images/star.png" alt="star">
+        <img id="star3" src="images/star.png" alt="star">
+        <img id="star4" src="images/star.png" alt="star">
+        <img id="star5" src="images/star.png" alt="star">
+        <img id="star6" src="images/star.png" alt="star">
+
+
+    </main>
+
+</body>
+
+</html>

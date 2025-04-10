@@ -1,0 +1,246 @@
+body {
+    margin: 1rem;
+    background-color: rgb(10, 1, 27);
+}
+
+main {
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 15vw;
+    font-family: 'Luckiest Guy';
+    color: aliceblue;
+    margin-bottom: 0px;
+}
+
+#final h1 {
+    color: rgb(216, 161, 64);
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 40px;
+    background-color: aliceblue;
+    color: rgb(10, 1, 27);
+    border: none;
+
+    width: 20vw;
+    height: 7vw;
+
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: "Open Sans";
+
+}
+
+h2 {
+    color: rgb(216, 161, 64);
+    font-size: 3.5vw;
+    margin: 1rem;
+    font-family: "Open Sans";
+}
+
+#start {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button:hover {
+    background: #ddad00;
+    color: white;
+}
+
+button:active {
+    background: rgb(255, 242, 0);
+    color: white;
+
+}
+
+button:focus {
+    outline: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#box {
+    border: 20px solid rgb(216, 161, 64);
+    width: 70vw;
+    height: 45vw;
+    border-radius: 70px;
+    background-color: rgb(222, 221, 221);
+
+    margin: -10px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#setup {
+    margin: 50px 0px;
+    font-family: "Open Sans";
+    font-size: 3vw;
+
+}
+
+#number {
+    padding-bottom: 5vw;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#topic {
+    padding-bottom: 5vw;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#difficulty {
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+#questionNumber {
+    width: 20%;
+    padding: 5px;
+    font-size: 2vw;
+    border: 2px solid rgb(216, 161, 64);
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: rgb(10, 1, 27);
+    margin-bottom: 10px;
+}
+
+#warning {
+    font-family: "Open Sans";
+    font-size: 1.5vw;
+    margin: 0;
+    /* color: rgb(199, 105, 105); */
+    position: absolute;
+
+}
+
+select {
+    width: 40%;
+    padding: 5px;
+    font-size: 2vw;
+    border: 2px solid rgb(216, 161, 64);
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+
+}
+
+#goButton {
+    position: relative;
+    top: 3vw;
+    text-align: center
+}
+
+#answers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 100%;
+
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#answers button {
+    border: 6px solid rgb(216, 161, 64);
+    width: 90%;
+    height: auto;
+    margin-top: 10px;
+    font-size: 2.5vw;
+
+}
+
+#final button {
+    width: 35vw;
+    height: 7vw;
+
+}
+
+img{
+    width:50px;
+    height:50px;
+}
+
+#star1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transform: rotate(45deg);
+}
+
+#star2 {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    transform: rotate(80deg);
+    filter: hue-rotate(100deg);
+}
+
+#star3 {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    transform: rotate(40deg);
+    filter: hue-rotate(300deg);
+}
+
+#star4 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    transform: rotate(45deg);
+    filter: hue-rotate(300deg);
+}
+
+#star5 {
+    position: absolute;
+    bottom: 30px;
+    right: 80px;
+    transform: rotate(100deg);
+    filter: hue-rotate(100deg);
+}
+
+#star6 {
+    position: absolute;
+    bottom: 80px;
+    right: 30px;
+    transform: rotate(40deg);
+    
+}
+
+
+
+
+@media screen and (max-width: 780px) {
+    #setup {
+        margin: 30px 0px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 640px) {
+    
+
+}
